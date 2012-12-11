@@ -1,0 +1,10 @@
+
+#line[highway='primary'] {
+  line-width:5;
+  line-color:@black;
+}
+ 
+#line::outline[highway='primary'] {
+  line-width:3;
+  line-color:@red;
+}

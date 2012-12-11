@@ -1,0 +1,268 @@
+#line[zoom > 10][highway='motorway'] {
+  line-width:7;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 10][highway='motorway'] {
+  line-width:5;
+  line-color:@red;
+}
+
+#line::label[zoom > 10][highway='motorway'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:2;
+  text-size:15;
+  text-placement:line;
+} 
+
+
+#line[zoom > 10][highway='motorway_link']{
+  line-width:7;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 10][highway='motorway_link'] {
+  line-width:5;
+  line-color:@red;
+}
+
+#line::label[zoom > 10][highway='motorway_link'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:12;
+  text-placement:line;
+}
+
+#line[zoom > 10][highway='primary'] {
+  line-width:7;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 10][highway='primary']{
+  line-width:5;
+  line-color:@red;
+}
+
+#line::label[zoom > 10][highway='primary']{
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:2;
+  text-size:15;
+  text-placement:line;
+} 
+
+#line[zoom > 10][highway='primary_link'] {
+  line-width:7;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 10][highway='primary_link'] {
+  line-width:5;
+  line-color:@red;
+}
+
+#line::label[zoom > 10][highway='primary_link'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:2;
+  text-size:15;
+  text-placement:line;
+} 
+#line[zoom > 13][highway='secondary'] {
+  line-width:6;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 13][highway='secondary'] {
+  line-width:4;
+  line-color:@red;
+}
+
+#line::label[zoom > 13][highway='secondary'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:2;
+  text-size:13;
+  text-placement:line;
+} 
+
+#line[zoom > 13][highway='tertiary'] {
+  line-width:5;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 13][highway='tertiary'] {
+  line-width:3;
+  line-color:@red;
+}
+
+#line::label[zoom > 13][highway='tertiary'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:12;
+  text-placement:line;
+} 
+
+#line[zoom > 13][highway='tertiary_link'] {
+  line-width:5;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 13][highway='tertiary_link'] {
+  line-width:3;
+  line-color:@red;
+}
+
+#line::label[zoom > 13][highway='tertiary_link'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:12;
+  text-placement:line;
+} 
+
+#line[zoom > 14][highway='service'] {
+  line-width:4;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 14][highway='service'] {
+  line-width:2;
+  line-color:@red;
+}
+
+#line::label[zoom > 14][highway='service'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:12;
+  text-placement:line;
+} 
+
+#line[zoom > 14][highway='road'] {
+  line-width:4;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 14][highway='road'] {
+  line-width:2;
+  line-color:@red;
+}
+
+#line::label[zoom > 14][highway='road'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:12;
+  text-placement:line;
+} 
+
+
+#line[zoom > 14][highway='unclassified'] {
+  line-width:4;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 14][highway='unclassified'] {
+  line-width:2;
+  line-color:@red;
+}
+
+#line::label[zoom > 14][highway='unclassified'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:12;
+  text-placement:line;
+} 
+
+#line[zoom > 14][highway='tertiary_link'] {
+  line-width:4;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 14][highway='tertiary_link'] {
+  line-width:2;
+  line-color:@red;
+}
+
+#line::label[zoom > 14][highway='tertiary_link'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:12;
+  text-placement:line;
+} 
+
+#line[zoom > 14][highway='path'] {
+  line-width:4;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 14][highway='path'] {
+  line-width:2;
+  line-color:@red;
+}
+
+#line::label[zoom > 14][highway='path'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:12;
+  text-placement:line;
+} 
+
+#line[zoom > 14][highway='track'] {
+  line-width:4;
+  line-color:@white;
+}
+ 
+#line::outline[zoom > 14][highway='track'] {
+  line-width:2;
+  line-color:@red;
+}
+
+#line[zoom > 14][railway='rail'] {
+  line-width:4;
+  line-color:@grey;
+}
+ 
+#line::outline[zoom > 14][railway='rail'] {
+  line-width:2;
+  line-dasharray:5;
+  line-color:@white;
+}
+#line::label[zoom > 14][highway='track'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:12;
+  text-placement:line;
+} 
+ 
+#line[zoom > 13][waterway='stream'] {
+  line-width:5;
+  line-color:@blue;
+}
+ 
+#line[zoom > 13][waterway='ditch'] {
+  line-width:5;
+  line-color:@blue;
+}
+
+#line[zoom > 13][waterway='river'] {
+  line-width:5;
+  line-color:@blue;
+}
+
+#line::label[zoom > 13][waterway='river'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Italic";
+  text-fill:@blue;
+  text-halo-radius:1;
+  text-size:13;
+  text-placement:line;
+} 

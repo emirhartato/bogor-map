@@ -1,0 +1,97 @@
+#polygon {
+  line-color:#594;
+  line-width:0.5;
+  line-opacity:0;
+  polygon-opacity:1;
+  polygon-fill:@green;
+}
+
+#polygon_label::label[zoom > 15][leisure='park']{
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:2;
+  text-size:15;
+  text-avoid-edges:true;
+  text-allow-overlap:true;
+}
+
+#polygon[zoom > 15][building='yes'] {
+  polygon-fill:@building;
+  line-opacity:0;
+}
+
+#polygon[zoom > 15][building='multiple_buildings'] {
+  polygon-fill:@building;
+  line-opacity:0;
+}
+
+#polygon[natural='water'] {
+  polygon-fill:@blue;
+  line-opacity:0;
+}
+
+#polygon[waterway='riverbank'] {
+  polygon-fill:@blue;
+  line-opacity:0;
+}
+
+#polygon[natural='basin'] {
+  polygon-fill:@blue;
+  line-opacity:0;
+}
+
+#polygon[landuse='residential'] {
+  polygon-fill:#fce96e;
+  line-opacity:0;
+}
+
+#polygon[landuse='grass'] {
+  polygon-fill:@green;
+  line-opacity:0;
+}
+
+#polygon[landuse='trees'] {
+  polygon-fill:@green;
+  line-opacity:0;
+}
+
+#polygon[landuse='wood'] {
+  polygon-fill:@green;
+  line-opacity:0;
+}
+
+#polygon[landuse='greenfield'] {
+  polygon-fill:@green;
+  line-opacity:0;
+}
+
+#polygon[landuse='farm'] {
+  polygon-fill:@farm;
+  line-opacity:0;
+}
+
+#polygon[landuse='farmland'] {
+  polygon-fill:@farm;
+  line-opacity:0;
+}
+
+#polygon[landuse='forest'] {
+  polygon-fill:@green;
+  line-opacity:0;
+}
+
+#polygon[landuse='recreation_ground'] {
+  polygon-fill:@green;
+  line-opacity:0;
+}
+
+#polygon[leisure='park'] {
+  polygon-fill:@green;
+  line-opacity:0;
+}
+
+#polygon[landuse='commercial'] {
+  polygon-fill:#f4e4da;
+  line-opacity:0;
+}
+

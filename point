@@ -1,0 +1,140 @@
+#point_label[zoom > 15][amenity='hospital'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:10;
+  text-allow-overlap:true;
+  text-dy:10;
+  text-fill:#f01010;
+}
+
+#point_label[zoom > 15][amenity='school'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:10;
+  text-allow-overlap:false;
+  text-dy:10;
+  text-fill:#2d6800;
+}
+
+#point_label[zoom > 15][amenity='kindergarten'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:10;
+  text-allow-overlap:false;
+  text-dy:10;
+  text-fill:#2d6800;
+}
+
+#point_label[zoom > 15][religion='christian'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:10;
+  text-allow-overlap:false;
+  text-dy:10;
+  text-fill:@grey;
+}
+
+#point_label[zoom > 15][religion='muslim'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:10;
+  text-allow-overlap:false;
+  text-dy:10;
+  text-fill:@grey;
+}
+
+#point_label[zoom > 15][amenity='restaurant'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:10;
+  text-allow-overlap:false;
+  text-dy:10;
+  text-fill:@grey;
+}
+
+#point_label[zoom > 15][amenity='police'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:10;
+  text-allow-overlap:false;
+  text-dy:10;
+  text-fill:@grey;
+}
+
+#point_label[zoom > 15][amenity='post_office'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:10;
+  text-allow-overlap:false;
+  text-dy:10;
+  text-fill:@grey;
+}
+
+#point_label[zoom > 15][amenity='bank'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:10;
+  text-allow-overlap:false;
+  text-dy:10;
+  text-fill:@grey;
+}
+
+#point_label[zoom > 15][tourism='hotel'] {
+  text-name:"[name]";
+  text-face-name:"Calibri Regular";
+  text-halo-radius:1;
+  text-size:10;
+  text-allow-overlap:false;
+  text-dy:10;
+  text-fill:@grey;
+}
+
+#point[zoom > 14][amenity='hospital'] {
+  point-file:url(icons/hospital.png);
+}
+
+#point[zoom > 14][amenity='school'] {
+  point-file:url(icons/school.png);
+}
+
+#point[zoom > 14][amenity='kindergaten'] {
+  point-file:url(icons/kindergarten.png);
+}
+
+#point[zoom > 14][religion='muslim'] {
+  point-file:url(icons/mosque.png);
+}
+
+#point[zoom > 14][religion='christian'] {
+  point-file:url(icons/church1.png);
+  point-transform:"scale(2)";
+}
+
+#point[zoom > 14][amenity='restaurant'] {
+  point-file:url(icons/restaurant-18.png);
+}
+
+#point[zoom > 14][amenity='police'] {
+  point-file:url(icons/police.png);
+}
+
+#point[zoom > 14][amenity='post_office'] {
+  point-file:url(icons/post-18.png);
+}
+
+#point[zoom > 14][amenity='bank'] {
+  point-file:url(icons/bank-18.png);
+}
+
+#point[zoom > 14][tourism='hotel'] {
+  point-file:url(icons/lodging-18.png);
+}
